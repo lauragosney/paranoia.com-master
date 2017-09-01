@@ -1,3 +1,8 @@
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 body {
   font-family: Helvetica;
   font-size: 16px;
@@ -90,6 +95,10 @@ hr {
   overflow: hidden;
 }
 
+section.heromob {
+  display: none;
+}
+
 .hero {
   background-image: url(../assets/main.jpg);
   background-repeat: no-repeat;
@@ -128,7 +137,14 @@ hr {
   align-items: center;
 }
 
-.products {
+ .productsreverse .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+.products,
+.productsreverse {
   margin-bottom: 60px;
 }
 
@@ -335,33 +351,30 @@ input.buttonnew:hover {
   color: #cbcbcb;
 }
 
-footer {
+.footer {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 
-footer nav {
+.footer nav {
    color: #ffffff;
    text-decoration: none;
    padding-top: 40px;
    padding-bottom: 30px;
 }
 
-footer nav a {
+.footer .link {
   margin-right: 35px;
   margin-left: 0;
 }
 
-footer nav a:last-child {
+.footer .link:last-child {
   margin-right: 0;
-}
-
-footer p {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding-bottom: 40px;
 }
 
 @media (max-width:650px) {
@@ -419,24 +432,50 @@ footer p {
   nav a {
     font-size: 14px;
   }
-  
+ 
   .hero {
-   margin-top: 25px;
-   margin-bottom: 45px;
+    display: none;
   }
   
-  .hero div {
-    max-width: 100%;
-    max-height: 100%;
-    top: 65%;
-    right: 0;
-  }
-  .intro {
-    padding: 40px;
+  section.heromob {
+    display: block;
+    margin-bottom: 60px;
   }
   
+  .heromob .heroimage {
+    margin-bottom: 35px;
+    margin-top: 40px;
+    height: 280px;
+    background-size: cover;
+    background-image: url(../assets/main.jpg);
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+  }
+  
+.heromob .container {
+    max-height: 280px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.intro {
+  padding: 0;
+}
+
+.intro h2 {
+  font-family: Playfair Display;
+  font-size: 40px;
+  line-height: 1.2;
+} 
+
   .products .container {
     flex-direction: column;
+  }
+  
+  .productsreverse .container {
+    flex-direction: column-reverse;
   }
   
   .products {
@@ -459,11 +498,11 @@ footer p {
   }
 
   .left {
-    padding-right: 10px;
+    padding-right: 0px;
   }
 
   .right {
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   h3 {
@@ -524,14 +563,16 @@ footer p {
     font-size: 11px;
   }
 
-  footer img {
+  .footer img {
     width: 25px;
     height: 25px;
   }
     
-  footer nav a {
+  .footer .link {
     margin-right: 20px;
     margin-left: 0;
   }
 }
+
+
 
