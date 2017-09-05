@@ -8,7 +8,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
-  padding-top: 104px;
 }
 
 a {
@@ -104,9 +103,9 @@ section.heromob {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 1130px;
-  margin-top: 75px;
+  margin-top: 206px;
   margin-bottom: 90px;
-  padding-top: 300px;
+  padding-top: 280px;
   padding-bottom: 400px;
   position: relative;
 }
@@ -158,7 +157,7 @@ section.heromob {
 img {
   transition: 0.3s;
 }
-.product:hover img {
+.largeproduct:hover img {
   opacity:.3;
   cursor: pointer;
 }
@@ -440,12 +439,12 @@ input.buttonnew:hover {
   section.heromob {
     display: block;
     margin-bottom: 60px;
+    margin-top: 145px;
   }
   
   .heromob .heroimage {
     margin-bottom: 35px;
-    margin-top: 40px;
-    height: 280px;
+    height: 320px;
     background-size: cover;
     background-image: url(../assets/main.jpg);
     background-repeat: no-repeat;
@@ -573,6 +572,7 @@ input.buttonnew:hover {
     margin-left: 0;
   }
 }
+
 
 
 
