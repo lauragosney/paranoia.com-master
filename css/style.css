@@ -1,8 +1,3 @@
-@keyframes fade {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 body {
   font-family: Helvetica;
   font-size: 16px;
@@ -11,6 +6,11 @@ body {
 }
 
 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.links  {
   text-decoration: none;
   color: black;
   letter-spacing: 1px;
@@ -19,11 +19,35 @@ a {
   margin-left: 40px;
   text-transform: uppercase;
   font-size: 14px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
-a:hover {
+.links:hover {
  opacity: 0.3;
+}
+
+a.button {
+  color: #000000;
+  height: 44px; 
+  width: 180px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  transition: all 0.3s;
+  cursor: pointer;
+    -webkit-appearance: none;
+}
+
+a.button:hover {
+  color: #ffffff;
+  opacity: 1;
+  background-color: #3367D6;
+  border: solid 1px transparent;
 }
 
 p {
@@ -49,6 +73,11 @@ header {
 .cart {
   float: right;
   max-width: 25px;
+  transition: transform 0.5s ease;
+}
+
+.cart:hover img {
+  transform: scale(1.15) rotate(360deg);
 }
 
 .cart a {
@@ -60,12 +89,13 @@ header h1 {
  text-align: center;
  width: 30%; 
  margin: 30px auto 40px auto; 
- transition: 0.3s;
+ transition: all 0.3s;
 }
 
 header h1:hover {
   opacity: 0.3;
   cursor: pointer;
+  transform: scale(1.15);
 }
 
 nav {
@@ -74,8 +104,20 @@ nav {
   padding-bottom: 20px;
 }
 
-nav a {
+nav a  {
   font-size: 18px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+ opacity: 0.3;
 }
 
 hr {
@@ -306,26 +348,6 @@ input::placeholder {
   color: #cbcbcb;
 }
 
-.button {
- height: 44px; 
- width: 180px;
- display: inline-block;
- text-transform: uppercase;
- letter-spacing: 1px;
- font-size: 14px;
- border: solid 1px #000000;
- background-color: #ffffff;
- transition: 0.3s;
- cursor: pointer;
-    -webkit-appearance: none;
-}
-
-.button:hover {
-  background-color: #3367D6;
-  color: #ffffff;
-  border: solid 1px transparent;
-}
-
 input.buttonnew {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -394,12 +416,14 @@ input.buttonnew:hover {
     margin-bottom:10px ;
   }
 
-  .button,
+  a.button,
   input.buttonnew {
     width: 100%;
     margin-bottom:5px ;
   }
+
 }
+  
 
 @media (max-width:534px) {
   
@@ -407,10 +431,11 @@ input.buttonnew:hover {
     padding-top: 10px;
   }
 
-  a {
+  nav a {
     margin-right: 15px;
     margin-left: 15px;
   }
+
 
   .cart {
     float: right;
@@ -444,7 +469,7 @@ input.buttonnew:hover {
   
   .heromob .heroimage {
     margin-bottom: 35px;
-    height: 320px;
+    height: 280px;
     background-size: cover;
     background-image: url(../assets/main.jpg);
     background-repeat: no-repeat;
@@ -571,8 +596,6 @@ input.buttonnew:hover {
     margin-right: 20px;
     margin-left: 0;
   }
+ 
 }
-
-
-
 
