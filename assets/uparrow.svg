@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>uparrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uparrow" transform="translate(5.000000, 2.500000) scale(1, -1) translate(-5.000000, -2.500000) " fill-rule="nonzero" fill="#000000">
+            <path d="M6.72720828,7.11367198 C6.62832828,7.11367198 6.52960228,7.07597388 6.45405228,7.00057768 L2.22676628,2.77298318 C2.15430528,2.70052248 2.11367228,2.60241478 2.11367228,2.49982648 C2.11367228,2.39723818 2.15446028,2.29913048 2.22676628,2.22666978 L6.45436128,-2.00046132 C6.60530728,-2.15140822 6.84972728,-2.15140822 7.00051928,-2.00046132 C7.15131228,-1.84951442 7.15146628,-1.60494022 7.00051928,-1.45430232 L3.04608228,2.49998098 L7.00036528,6.45441878 C7.15131228,6.60536568 7.15131228,6.84978528 7.00036528,7.00057768 C6.92481428,7.07597388 6.82608928,7.11367198 6.72720828,7.11367198 Z" id="Shape" transform="translate(4.613672, 2.500000) scale(-1, 1) rotate(-90.000000) translate(-4.613672, -2.500000) "></path>
+        </g>
+    </g>
+</svg>

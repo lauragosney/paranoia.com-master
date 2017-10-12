@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="paranoia_desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product_details" transform="translate(-1089.000000, -480.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="section3" transform="translate(928.000000, 460.000000)">
+                <g id="size">
+                    <path d="M167.727208,27.1136717 C167.628328,27.1136717 167.529602,27.0759736 167.454052,27.0005774 L163.226766,22.7729829 C163.154305,22.7005222 163.113672,22.6024145 163.113672,22.4998262 C163.113672,22.3972379 163.15446,22.2991302 163.226766,22.2266695 L167.454361,17.9995384 C167.605307,17.8485915 167.849727,17.8485915 168.000519,17.9995384 C168.151312,18.1504853 168.151466,18.3950595 168.000519,18.5456974 L164.046082,22.4999807 L168.000365,26.4544185 C168.151312,26.6053654 168.151312,26.849785 168.000365,27.0005774 C167.924814,27.0759736 167.826089,27.1136717 167.727208,27.1136717 Z" id="Shape" transform="translate(165.613672, 22.500000) scale(1, -1) rotate(90.000000) translate(-165.613672, -22.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
